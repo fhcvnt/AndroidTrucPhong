@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35393C"
+    tools:context=".DanhSachTrucPhong">
+
+    <TextView
+        android:id="@+id/textViewDanhsachtrucphong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Danh sách trực phòng"
+        android:textColor="#ff0"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#2B2E29"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#20271A"
+            android:gravity="center"
+            android:minHeight="40dp">
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textViewTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên"
+                android:textColor="#0EECB9"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textViewSothe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số thẻ"
+                android:textColor="#0EECB9"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textViewThu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ"
+                android:textColor="#0EECB9"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/textViewNgay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày"
+                android:textColor="#0EECB9"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khoa"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25985"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ 2"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tiền"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20802"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ 3"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="02/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hiếu"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14562"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Thứ 4"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="03/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hết"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15667"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ 5"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="04/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bình"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17430"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ 6"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:gravity="center">
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:id="@+id/textViewTen7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trí"
+                android:textColor="#FF5722"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewSothe7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21608"
+                android:textColor="#CDDC39"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewThu7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thứ 7"
+                android:textColor="#fff"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewNgay7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="06/02/2021"
+                android:textColor="#C47DEA"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
